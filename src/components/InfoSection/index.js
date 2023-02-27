@@ -20,6 +20,7 @@ import { Link } from "react-router-dom";
 import FlickPlix from "./../../images/Screenshot (523).png";
 import DoomBurst from "./../../images/Screenshot (593).png";
 import Sky from "./../../images/Screenshot (595).png";
+import Sonesta from "./../../images/Screenshot (597).png";
 
 const InfoSection = ({
   lightBg,
@@ -91,7 +92,10 @@ const InfoSection = ({
                       color: "black",
                     }}
                   >
-                    GitHub Repo: JWT Token
+                    GitHub Repo:
+                    <Link style={{ color: "black" }}>
+                      https://github.com/Yasiru-Deshan/Social-Media-Application
+                    </Link>
                   </p>
                 </div>
 
@@ -125,17 +129,17 @@ const InfoSection = ({
                 </Subtitle>
                 <div
                   style={{
-                    height: "120px",
+                    height: "140px",
                     width: "100%",
                     border: "1px solid #01BF71",
                     borderRadius: "5px",
-                    padding: "10px",
+                    padding: "5px",
                     marginBottom: "10px",
                   }}
                 >
                   <p
                     style={{
-                      marginTop: "10px",
+                      marginTop: "2px",
                       fontWeight: "700",
                       color: "white",
                     }}
@@ -159,7 +163,7 @@ const InfoSection = ({
                   >
                     GitHub Repo:
                     <Link style={{ color: "white" }}>
-                      https://github.com/Yasiru-Deshan/Sonesta-frontend-Design
+                      https://github.com/Yasiru-Deshan/Weather-App
                     </Link>
                   </p>
                 </div>
@@ -246,6 +250,70 @@ const InfoSection = ({
             <Column2>
               <ImgWrap>
                 <Img src={FlickPlix} alt="" />
+              </ImgWrap>
+            </Column2>
+          </InfoRow>
+        </InfoWrapper>
+      </InfoContainer>
+      <InfoContainer lightBg={lightBg} id={id}>
+        <InfoWrapper>
+          <InfoRow data-aos="fade-up" imgStart="true">
+            <Column1>
+              <TextWrapper>
+                <TopLine>Frontend design for Hotel</TopLine>
+
+                <Heading style={{ color: "white" }}>Sonesta</Heading>
+
+                <Subtitle style={{ color: "white" }}>
+                  This is only a frontend design for the hotel sonesta..
+                </Subtitle>
+                <div
+                  style={{
+                    height: "120px",
+                    width: "100%",
+                    border: "1px solid #01BF71",
+                    borderRadius: "5px",
+                    padding: "10px",
+                    marginBottom: "10px",
+                    boxShadow: "0 60px 60px rgba(56, 125, 255, 0.17)",
+                  }}
+                >
+                  <p
+                    style={{
+                      marginTop: "10px",
+                      fontWeight: "700",
+                      color: "white",
+                    }}
+                  >
+                    Used Technology: React js
+                  </p>
+
+                  <p
+                    style={{
+                      marginTop: "px",
+                      fontWeight: "700",
+                      color: "white",
+                    }}
+                  >
+                    GitHub Repo:
+                    <Link style={{ color: "white" }}>
+                      {" "}
+                      https://github.com/Yasiru-Deshan/Sonesta-frontend-Design
+                    </Link>
+                  </p>
+                </div>
+
+                <BtnWrap>
+                  <Link to="https://sonesta-frontend-design-eeih.vercel.app/">
+                    <Buttong>Visit</Buttong>
+                  </Link>
+                </BtnWrap>
+              </TextWrapper>
+            </Column1>
+
+            <Column2>
+              <ImgWrap>
+                <Img src={Sonesta} alt="" />
               </ImgWrap>
             </Column2>
           </InfoRow>

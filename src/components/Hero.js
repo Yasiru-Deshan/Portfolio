@@ -150,11 +150,21 @@ const Hero = () => {
               boxShadow: "0 60px 60px rgba(56, 125, 255, 0.17)",
             }}
           >
-            <p style={{ marginTop:"10px",fontWeight: "700", color: "#01BF71", fontSize:"25px" }}>
+            <p
+              style={{
+                marginTop: "10px",
+                fontWeight: "700",
+                color: "#01BF71",
+                fontSize: "25px",
+              }}
+            >
               W M YASIRU DESHAN
             </p>
-            <p style={{ marginTop:"5px", fontWeight: "700", color: "black" }}>
+            <p style={{ marginTop: "5px", fontWeight: "700", color: "black" }}>
               Final Year Undergraduate at SLIIT🎓
+            </p>
+            <p style={{ marginTop: "5px", fontWeight: "700", color: "black" }}>
+              GitHub: https://github.com/Yasiru-Deshan
             </p>
           </div>
           {/* <Button
