@@ -134,7 +134,7 @@ const InfoSection = ({
                 </Subtitle>
                 <div
                   style={{
-                    height: "140px",
+                   
                     width: "100%",
                     border: "1px solid white",
                     borderRadius: "5px",
@@ -283,11 +283,11 @@ const InfoSection = ({
                 </Subtitle>
                 <div
                   style={{
-                    height: "120px",
+                    
                     width: "100%",
                     border: "1px solid white",
                     borderRadius: "5px",
-                    padding: "10px",
+                    padding: "20px",
                     marginBottom: "10px",
                     //boxShadow: "0 60px 60px rgba(56, 125, 255, 0.17)",
                   }}
