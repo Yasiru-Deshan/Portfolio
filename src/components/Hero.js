@@ -13,17 +13,15 @@ const Section = styled.section`
   justify-content: center;
   align-items: center;
   background: #13131;
-  
 `;
 
 const Container = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
-  height: 100vh;
+  height: 110vh;
   padding: 3rem calc((100vw - 1300px) / 2);
-  margintop: -50px;
-
-  @media screen and (max-width: 768px) {
+  margintop: -70px;
+  backgroundColor:blue @media screen and (max-width: 768px) {
     grid-grid-template-columns: 1fr;
   }
 `;
@@ -112,8 +110,9 @@ const Hero = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1 }}
+            style={{ fontSize: "60px" }}
           >
-            Welcome to My Portfolio
+            Welcome!
           </motion.h1>
           {/* <motion.p
             variants={fadeLeft}
@@ -144,28 +143,31 @@ const Hero = () => {
             style={{
               height: "100px",
               width: "100%",
-              border: "1px solid #01BF71",
+              // border: "1px solid #01BF71",
+              //border:"1px solid blueViolet",
               borderRadius: "5px",
               textAlign: "center",
-              boxShadow: "0 60px 60px rgba(56, 125, 255, 0.17)",
+              //boxShadow: "0 60px 60px rgba(56, 125, 255, 0.17)",
             }}
           >
+          <p style={{color:'#01BF'}}>Hi, my name is</p>
             <p
               style={{
                 marginTop: "10px",
-                fontWeight: "700",
-                color: "#01BF71",
-                fontSize: "25px",
+                fontWeight: "600",
+                color: "blueViolet",
+                fontSize: "35px",
               }}
             >
               W M YASIRU DESHAN
             </p>
-            <p style={{ marginTop: "5px", fontWeight: "700", color: "black" }}>
-              Final Year Undergraduate at SLIIT🎓
+            <p style={{ marginTop: "5px", fontWeight: "400", color: "black" }}>
+             I am a Final Year Undergraduate at SLIIT🎓
             </p>
-            <p style={{ marginTop: "5px", fontWeight: "700", color: "black" }}>
+            {/* <p style={{ marginTop: "5px", fontWeight: "400", color: "black" }}>
               GitHub: https://github.com/Yasiru-Deshan
-            </p>
+            </p> */}
+            {/* <FontAwesomeIcon icon="fa-brands fa-github" /> */}
           </div>
           {/* <Button
             whileHover={{ scale: 1.05 }}

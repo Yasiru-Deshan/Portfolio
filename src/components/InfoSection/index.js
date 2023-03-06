@@ -59,11 +59,10 @@ const InfoSection = ({
                 </Subtitle>
                 <div
                   style={{
-                    height: "120px",
                     width: "100%",
                     border: "1px solid #01BF71",
                     borderRadius: "5px",
-                    padding: "10px",
+                    padding: "20px",
                     marginBottom: "10px",
                     boxShadow: "0 60px 60px rgba(56, 125, 255, 0.17)",
                   }}
@@ -71,29 +70,35 @@ const InfoSection = ({
                   <p
                     style={{
                       marginTop: "10px",
-                      fontWeight: "700",
-                      color: "black",
+                      fontWeight: "500",
+                      color: "grey",
+                      display: "flex",
                     }}
                   >
-                    Used Technology: MERN Stack(React js, Node js)
+                    Used Technology:
+                    <p style={{ color: "blueViolet" }}>
+                      MERN Stack(React js, Node js)
+                    </p>
                   </p>
                   <p
                     style={{
-                      fontWeight: "700",
-                      color: "black",
+                      fontWeight: "500",
+                      color: "grey",
+                      display: "flex",
                     }}
                   >
-                    Authentication: JWT Token
+                    Authentication:{" "}
+                    <p style={{ color: "blueViolet" }}> JWT Token</p>
                   </p>
                   <p
                     style={{
                       marginTop: "px",
-                      fontWeight: "700",
-                      color: "black",
+                      fontWeight: "500",
+                      color: "grey",
                     }}
                   >
                     GitHub Repo:
-                    <Link style={{ color: "black" }}>
+                    <Link style={{ color: "blueViolet" }}>
                       https://github.com/Yasiru-Deshan/Social-Media-Application
                     </Link>
                   </p>
@@ -131,38 +136,42 @@ const InfoSection = ({
                   style={{
                     height: "140px",
                     width: "100%",
-                    border: "1px solid #01BF71",
+                    border: "1px solid white",
                     borderRadius: "5px",
-                    padding: "5px",
+                    padding: "20px",
                     marginBottom: "10px",
                   }}
                 >
                   <p
                     style={{
                       marginTop: "2px",
-                      fontWeight: "700",
+                      fontWeight: "500",
                       color: "white",
+                      display: "flex",
                     }}
                   >
-                    Used Technology: React js
+                    Used Technology:
+                    <p style={{ color: "blueViolet" }}> React Js</p>
                   </p>
                   <p
                     style={{
-                      fontWeight: "700",
+                      fontWeight: "500",
                       color: "white",
+                      display: "flex",
                     }}
                   >
-                    Authentication: Firebase
+                    Authentication:
+                    <p style={{ color: "blueViolet" }}>Firebase</p>{" "}
                   </p>
                   <p
                     style={{
                       marginTop: "px",
-                      fontWeight: "700",
+                      fontWeight: "500",
                       color: "white",
                     }}
                   >
                     GitHub Repo:
-                    <Link style={{ color: "white" }}>
+                    <Link style={{ color: "blueViolet" }}>
                       https://github.com/Yasiru-Deshan/Weather-App
                     </Link>
                   </p>
@@ -198,11 +207,10 @@ const InfoSection = ({
                 </Subtitle>
                 <div
                   style={{
-                    height: "120px",
                     width: "100%",
                     border: "1px solid #01BF71",
                     borderRadius: "5px",
-                    padding: "10px",
+                    padding: "20px",
                     marginBottom: "10px",
                     boxShadow: "0 60px 60px rgba(56, 125, 255, 0.17)",
                   }}
@@ -210,29 +218,35 @@ const InfoSection = ({
                   <p
                     style={{
                       marginTop: "10px",
-                      fontWeight: "700",
-                      color: "black",
+                      fontWeight: "500",
+                      color: "grey",
+                      display: "flex",
                     }}
                   >
-                    Used Technology: MERN Stack(React js, Node js)
+                    Used Technology:
+                    <p style={{ color: "blueviolet" }}>
+                      MERN Stack(React js, Node js)
+                    </p>
                   </p>
                   <p
                     style={{
-                      fontWeight: "700",
-                      color: "black",
+                      fontWeight: "500",
+                      color: "grey",
+                      display:'flex'
                     }}
                   >
-                    Authentication: JWT Token
+                    Authentication:
+                    <p style={{color:'blueviolet'}}>JWT Token</p>
                   </p>
                   <p
                     style={{
                       marginTop: "px",
-                      fontWeight: "700",
-                      color: "black",
+                      fontWeight: "500",
+                      color: "grey",
                     }}
                   >
                     GitHub Repo:
-                    <Link style={{ color: "black" }}>
+                    <Link style={{ color: "blueviolet" }}>
                       {" "}
                       https://github.com/Yasiru-Deshan/Flick-Plix
                     </Link>
@@ -271,32 +285,34 @@ const InfoSection = ({
                   style={{
                     height: "120px",
                     width: "100%",
-                    border: "1px solid #01BF71",
+                    border: "1px solid white",
                     borderRadius: "5px",
                     padding: "10px",
                     marginBottom: "10px",
-                    boxShadow: "0 60px 60px rgba(56, 125, 255, 0.17)",
+                    //boxShadow: "0 60px 60px rgba(56, 125, 255, 0.17)",
                   }}
                 >
                   <p
                     style={{
                       marginTop: "10px",
-                      fontWeight: "700",
+                      fontWeight: "500",
                       color: "white",
+                      display:'flex'
                     }}
                   >
-                    Used Technology: React js
+                    Used Technology:
+                    <p style={{color:'blueviolet'}}>React Js</p>
                   </p>
 
                   <p
                     style={{
                       marginTop: "px",
-                      fontWeight: "700",
+                      fontWeight: "500",
                       color: "white",
                     }}
                   >
                     GitHub Repo:
-                    <Link style={{ color: "white" }}>
+                    <Link style={{ color: "blueviolet" }}>
                       {" "}
                       https://github.com/Yasiru-Deshan/Sonesta-frontend-Design
                     </Link>
