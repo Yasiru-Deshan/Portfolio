@@ -105,7 +105,7 @@ const InfoSection = ({
                 </div>
 
                 <BtnWrap>
-                  <Link to="/demo">
+                  <Link to="https://drive.google.com/file/d/14wluA7osj1joQdDWOATu5iGHyUTpn0uq/view?usp=sharing">
                     <Buttong>Watch Demo</Buttong>
                   </Link>
                 </BtnWrap>
@@ -134,7 +134,6 @@ const InfoSection = ({
                 </Subtitle>
                 <div
                   style={{
-                   
                     width: "100%",
                     border: "1px solid white",
                     borderRadius: "5px",
@@ -232,11 +231,11 @@ const InfoSection = ({
                     style={{
                       fontWeight: "500",
                       color: "grey",
-                      display:'flex'
+                      display: "flex",
                     }}
                   >
                     Authentication:
-                    <p style={{color:'blueviolet'}}>JWT Token</p>
+                    <p style={{ color: "blueviolet" }}>JWT Token</p>
                   </p>
                   <p
                     style={{
@@ -283,7 +282,6 @@ const InfoSection = ({
                 </Subtitle>
                 <div
                   style={{
-                    
                     width: "100%",
                     border: "1px solid white",
                     borderRadius: "5px",
@@ -297,11 +295,11 @@ const InfoSection = ({
                       marginTop: "10px",
                       fontWeight: "500",
                       color: "white",
-                      display:'flex'
+                      display: "flex",
                     }}
                   >
                     Used Technology:
-                    <p style={{color:'blueviolet'}}>React Js</p>
+                    <p style={{ color: "blueviolet" }}>React Js</p>
                   </p>
 
                   <p
