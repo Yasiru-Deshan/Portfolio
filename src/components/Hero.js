@@ -52,7 +52,7 @@ const ColumnLeft = styled.div`
   }
   @media screen and (max-width: 768px) {
     height: 100vh;
-    padding: 2rem 2rem;
+    padding: 1rem 1rem;
   }
 
   ${
