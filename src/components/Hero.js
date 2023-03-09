@@ -13,6 +13,12 @@ const Section = styled.section`
   justify-content: center;
   align-items: center;
   background: #13131;
+  
+  @media screen and (max-width: 768px) {
+    grid-template-columns: 1fr;
+    height: 160vh;
+  
+  }
 `;
 
 const Container = styled.div`
@@ -21,8 +27,12 @@ const Container = styled.div`
   height: 110vh;
   padding: 3rem calc((100vw - 1300px) / 2);
   margintop: -70px;
-  backgroundColor:blue @media screen and (max-width: 768px) {
-    grid-grid-template-columns: 1fr;
+ 
+  width:100%;
+  @media screen and (max-width: 768px) {
+    grid-template-columns: 1fr;
+    margin-top:-25vh;
+    height: 180vh;
   }
 `;
 
@@ -34,10 +44,15 @@ const ColumnLeft = styled.div`
   align-items: flex-start;
   padding: 5rem 5rem;
 
+
   h1 {
     margin-bottom: 0.5rem;
     font-size: 2rem;
     color: black;
+  }
+  @media screen and (max-width: 768px) {
+    height: 100vh;
+    padding: 2rem 2rem;
   }
 
   ${
@@ -75,6 +90,11 @@ const ColumnRight = styled.div`
   padding: 2rem;
   position: relative;
 
+  @media screen and (max-width: 768px) {
+    margin-top:-40vh;
+    
+  }
+
   ${Image}:nth-child(1) {
     top: 10px;
     left: 10px;
@@ -106,11 +126,12 @@ const Hero = () => {
     <Section>
       <Container>
         <ColumnLeft>
+      
           <motion.h1
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1 }}
-            style={{ fontSize: "60px" }}
+            style={{ fontSize: "60px", textAlign:'center' }}
           >
             Welcome!
           </motion.h1>
@@ -124,8 +145,8 @@ const Hero = () => {
           </motion.p> */}
           <img
             style={{
-              width: "350px",
-              height: "350px",
+              width: "30vh",
+              height: "30vh",
               borderRadius: "50%",
               marginTop: "30px",
               display: "block",
@@ -191,7 +212,7 @@ const Hero = () => {
             drag={true}
             dragConstraints={{ left: 0, right: 250, top: 0, bottom: 50 }}
             initial={{ opacity: 0, y: -100 }}
-            animate={{ opacity: 1, y: 0, transition: { duration: 1 } }}
+            animate={{ opacity: 1, y: 0, transition: { duration: 2 } }}
           />
           <Image
             src={PlanetTwo}
@@ -200,7 +221,7 @@ const Hero = () => {
             drag={true}
             dragConstraints={{ left: 50, right: 0, top: 0, bottom: 50 }}
             initial={{ opacity: 0, x: 100 }}
-            animate={{ opacity: 1, x: 0, transition: { duration: 1 } }}
+            animate={{ opacity: 1, x: 0, transition: { duration: 2 } }}
           />
           <Image
             src={PlanetThree}
@@ -209,7 +230,7 @@ const Hero = () => {
             drag={true}
             dragConstraints={{ left: 0, right: 250, top: 0, bottom: 50 }}
             initial={{ opacity: 0, x: -100 }}
-            animate={{ opacity: 1, x: 0, transition: { duration: 1 } }}
+            animate={{ opacity: 1, x: 0, transition: { duration: 2 } }}
           />
           <Image
             src={PlanetFour}
@@ -218,7 +239,7 @@ const Hero = () => {
             drag={true}
             dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
             initial={{ opacity: 0, y: 100 }}
-            animate={{ opacity: 1, y: 0, transition: { duration: 1 } }}
+            animate={{ opacity: 1, y: 0, transition: { duration: 2 } }}
           />
         </ColumnRight>
       </Container>

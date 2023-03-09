@@ -46,7 +46,7 @@ const InfoSection = ({
     <>
       <InfoContainer lightBg="true" id={id}>
         <InfoWrapper>
-          <InfoRow data-aos="fade-up" imgStart="false">
+          <InfoRow data-aos="fade-up" imgStart="false" style={{marginTop:"-5vh"}}>
             <Column1>
               <TextWrapper>
                 <TopLine>Social Media Application</TopLine>
